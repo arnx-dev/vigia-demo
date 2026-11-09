@@ -1,0 +1,9 @@
+{
+  "name": "vigia-demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "vitest run" },
+  "dependencies": { "stripe": "^17.0.0" },
+  "devDependencies": { "vitest": "^3.2.0" }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "vendor": "abacatepay",
+  "pages": {},
+  "entries": [
+    {
+      "id": "309bb5e1",
+      "vendor": "abacatepay",
+      "date": "2026-10-10",
+      "title": "v1 sunset",
+      "kind": "sunset",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "api_version": null,
+      "scope_prefix": "/v1/",
+      "sunset_date": "2028-03-01",
+      "quote": "A v1 continuará funcionando até 1º de março de 2028.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "0bef61cf",
+      "vendor": "abacatepay",
+      "date": "2026-09-23",
+      "title": "Checkout moved to subscriptions",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/v2/checkouts/get"
+        }
+      ],
+      "replacements": [
+        {
+          "method": "GET",
+          "path": "/v2/subscriptions/checkouts/get"
+        }
+      ],
+      "resources": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Ação necessária: GET /v2/checkouts/get passa a ser GET /v2/subscriptions/checkouts/get.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    }
+  ]
+}

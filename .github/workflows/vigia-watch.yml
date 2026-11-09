@@ -1,0 +1,36 @@
+name: vigia watch
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Watch vendor docs
+        # pin a tag or SHA once released
+        uses: arnx-dev/vigia@main
+        with:
+          command: watch
+          firecrawl-key: ${{ secrets.FIRECRAWL_API_KEY }}
+      - name: Commit new changes
+        run: |
+          if [ -n "$(git status --porcelain .vigia/changes)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .vigia/changes
+            git commit -m "vigia: new vendor changes"
+            git push
+          fi
+      - name: Open issues
+        # pin a tag or SHA once released
+        uses: arnx-dev/vigia@main
+        with:
+          command: issues

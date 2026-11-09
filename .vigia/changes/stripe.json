@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "vendor": "stripe",
+  "pages": {},
+  "entries": [
+    {
+      "id": "2bd0767f",
+      "vendor": "stripe",
+      "date": "2026-10-28",
+      "title": "Removes the payment method types parameter from Checkout Sessions",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Checkout Sessions"
+      ],
+      "api_version": "2026-10-28.endive",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Removes the payment method types parameter from Checkout Sessions.",
+      "url": "https://docs.stripe.com/changelog"
+    }
+  ]
+}
