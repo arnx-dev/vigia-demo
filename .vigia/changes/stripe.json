@@ -26,8 +26,8 @@
       "api_version": "2026-10-28.endive",
       "scope_prefix": null,
       "sunset_date": null,
-      "quote": "Removes the payment_method_types parameter from Checkout Sessions.",
-      "url": "https://docs.stripe.com/changelog"
+      "quote": "Removes the payment method types parameter from Checkout Sessions.",
+      "url": "https://docs.stripe.com/changelog/2026-10-28.endive/removes-payment-method-types"
     }
   ]
 }
