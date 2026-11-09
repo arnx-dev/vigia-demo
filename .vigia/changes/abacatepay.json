@@ -13,6 +13,7 @@
       "endpoints": [],
       "replacements": [],
       "resources": [],
+      "fields": [],
       "api_version": null,
       "scope_prefix": "/v1/",
       "sunset_date": "2028-03-01",
@@ -39,6 +40,7 @@
         }
       ],
       "resources": [],
+      "fields": [],
       "api_version": null,
       "scope_prefix": null,
       "sunset_date": null,
