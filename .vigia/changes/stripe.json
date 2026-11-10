@@ -4,7 +4,7 @@
   "pages": {},
   "entries": [
     {
-      "id": "2bd0767f",
+      "id": "c2e5b4f3",
       "vendor": "stripe",
       "date": "2026-10-28",
       "title": "Removes the payment method types parameter from Checkout Sessions",
@@ -27,7 +27,7 @@
       "scope_prefix": null,
       "sunset_date": null,
       "quote": "Removes the payment method types parameter from Checkout Sessions.",
-      "url": "https://docs.stripe.com/changelog/2026-10-28.endive/removes-payment-method-types"
+      "url": "https://docs.stripe.com/changelog/endive/2026-10-28/removes-payment-method-types"
     }
   ]
 }
