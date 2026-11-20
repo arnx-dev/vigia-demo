@@ -8,6 +8,8 @@ permissions:
   issues: write
 jobs:
   watch:
+    # Each run spends Firecrawl credits: switched on with the repository variable VIGIA_WATCH=on.
+    if: ${{ vars.VIGIA_WATCH == 'on' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,3 +36,12 @@ jobs:
         uses: arnx-dev/vigia@main
         with:
           command: issues
+      - name: Email findings
+        if: ${{ vars.VIGIA_EMAIL_TO != '' }}
+        # pin a tag or SHA once released
+        uses: arnx-dev/vigia@main
+        with:
+          command: email
+          resend-key: ${{ secrets.RESEND_API_KEY }}
+          email-to: ${{ vars.VIGIA_EMAIL_TO }}
+          email-from: ${{ vars.VIGIA_EMAIL_FROM }}

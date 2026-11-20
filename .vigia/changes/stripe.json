@@ -1,12 +1,468 @@
 {
   "schema_version": 1,
   "vendor": "stripe",
-  "pages": {},
+  "pages": {
+    "https://docs.stripe.com/changelog": {
+      "status": "changed",
+      "checked": "2026-11-19T22:45:10.705Z"
+    },
+    "https://docs.stripe.com/changelog.md": {
+      "status": "same",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/acacia/2024-09-30/billing-alerts-contextualizing-filters.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/add-support-for-multiple-partial-payments-on-invoices.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/adds-new-parent-field-to-invoicing-objects.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/checkout-legacy-subscription-upgrade.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/checkout-session-remove-shipping-details.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/deprecate-interac-present-manual-capture-method.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/deprecate-legacy-usage-based-billing.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/deprecate-singular-coupon-promotion-code.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/deprecate-subscription-current-period-start-and-end.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/invoice-preview-api-deprecations.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/invoice-pricing-configurations.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/invoice-tax-configurations.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/naver-pay-payment-method.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/remove-refund-from-partial-capture-and-payment-cancellation-flow.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/restrict-coupon-duration.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-03-31/vault-forward-api-returns-402.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-05-28/flatten-tax-association.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-05-28/rename-async-workflows.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-06-30/billing-mode-hash.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-06-30/billing-mode.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-08-27/billing-mode-default-flexible.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/basil/2025-08-27/remove_schedule_phase_iterations.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/add-discount-source-property.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/billing-cycle-anchor-resets-during-phase-computation.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/billing-mode-default-flexible.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/lpm-descriptive-decline-codes.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/polymorphic-coupon.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/postal_code_in_card_form_for_non_us_countries.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/remove-checkout-session-currency-conversion-field.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/remove-iterations.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/remove-redirect-to-checkout.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/restructure-smart-disputes-recommended-evidence.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/stablecoin-payments-processing-status.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/update-init-checkout-synchronous.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-09-30/update-meter-usage-fields.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/clover/2025-11-17/meter-usage-tenant-dimension-filters.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-03-25/adds-new-cancellation-reason-subscription-test-retention-policy.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-03-25/remove-legacy-stripejs-methods.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-03-25/rename-init-checkout-to-init-checkout-elements.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-03-25/rename-init-embedded-checkout-to-create-embedded-checkout-page.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-03-25/stripe-balance-payment-method-source-type.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-03-25/updates-available-checkout-session-ui-modes.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-04-22/billing-meter-event-values-validation.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-05-27/subscription-item-billed-until-includable.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-07-29/checkout-session-collected-information-tax-ids-rename.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-07-29/industry-metadata-taxes-parameter-rename.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-07-29/spts-next-action-support.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-08-26/removes-payment-method-types-parameter-from-payment-intents-setup-intents.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-08-26/trial-offers-return-deleted-prices.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/dahlia/2026-08-26/updates-v2-payout-method-and-vault-bank-account-resources.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/blik-granular-decline-codes.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/block-custom-checkout-confirmation-pending-updates.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/data-share-only.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/duplicate-reference-validation-for-india-pending-mandates.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/expands-reserve-plan-listing-access.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/failed-tax-calculation-error.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/page-limit-validation-dispute-evidence.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/page-limit-validation-for-dispute-evidence.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/polymorphic-billing-cycle-anchor.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/remove-payment-method-types-checkout-sessions.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/removed-payto-fields.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/removes-capture-method-parameter-for-paypay-payments.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/removes-the-payment-method-types-parameter-from-payment-intents-and-setup-intents.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/sepa-debit-settings-accounts.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/settlement-reserve-api.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/skip-format-validation-empty-optional-address-fields.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/strict-billing-details-validation.md": {
+      "status": "new",
+      "checked": "2026-11-19T22:47:31.475Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/surface-india-card-mandate-even-when-inactive.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-09-30/trial-offers-archiving-and-trial-end-behavior-settings.md": {
+      "status": "new",
+      "checked": "2026-11-19T23:04:03.305Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-10-28/adds-intended-submission-method-for-disputes": {
+      "status": "new",
+      "checked": "2026-11-18T22:46:43.405Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-10-28/adds-payment-intent-data-configuration-when-updating-checkout-sessions": {
+      "status": "new",
+      "checked": "2026-11-18T22:46:43.405Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-10-28/evidence-submission-method-property-disputes": {
+      "status": "new",
+      "checked": "2026-11-18T22:46:43.405Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-10-28/invoice-settings-parameters-checkout-sessions-payment-links-subscriptions": {
+      "status": "new",
+      "checked": "2026-11-18T23:05:02.681Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-10-28/ousd-token-currency": {
+      "status": "new",
+      "checked": "2026-11-18T22:46:43.405Z"
+    },
+    "https://docs.stripe.com/changelog/endive/2026-10-28/scalapay-payment-method-support-payment-links": {
+      "status": "new",
+      "checked": "2026-11-18T22:46:43.405Z"
+    }
+  },
   "entries": [
     {
-      "id": "c2e5b4f3",
+      "id": "1d0b303f",
       "vendor": "stripe",
       "date": "2026-10-28",
+      "title": "Adds the evidence submission method property to Disputes",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "submission_method"
+      ],
+      "events": [],
+      "api_version": "2026-10-28",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds the submission_method property to the evidence_details hash on the Dispute object. This read-only property indicates how evidence for the original chargeback was submitted: - manual: The evidence was submitted manually. - smart_disputes: The evidence was submitted through Smart Disputes. - not_submitted: The evidence hasn’t been submitted. The submission_method property is always present in evidence_details. It also appears in all charge.dispute.* webhook events, including charge.dispute.created, charge.dispute.updated, charge.dispute.closed, charge.dispute.funds_reinstated, and charge.dispute.funds_withdrawn.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-10-28/evidence-submission-method-property-disputes"
+    },
+    {
+      "id": "373bfb35",
+      "vendor": "stripe",
+      "date": "2026-10-28",
+      "title": "Adds support for requesting Scalapay Payment Links",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "payment_method_types"
+      ],
+      "events": [],
+      "api_version": "2026-10-28.endive",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds `scalapay` as a supported value for the payment_method_types parameter when you create or update a Payment Link. The payment_method_types property on the Payment Link object can also now return `scalapay`. Previously, Scalapay was available on Payment Links through dynamic payment methods (when payment_method_types is omitted), but you couldn’t explicitly specify it. You can now include `scalapay` in the payment_method_types array to explicitly offer it as a payment option on a Payment Link.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-10-28/scalapay-payment-method-support-payment-links"
+    },
+    {
+      "id": "a9587f04",
+      "vendor": "stripe",
+      "date": "2026-10-28",
+      "title": "Adds payment intent data configuration when updating CheckoutSessions",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "payment_intent_data"
+      ],
+      "events": [],
+      "api_version": "2026-10-28",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "You can now pass payment_intent_data when you update a Checkout Session that uses mode=payment and ui_mode=elements. This lets you configure selected PaymentIntent parameters after creating the Checkout Session and before confirming the payment.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-10-28/adds-payment-intent-data-configuration-when-updating-checkout-sessions"
+    },
+    {
+      "id": "d83b5b02",
+      "vendor": "stripe",
+      "date": "2026-10-28",
+      "title": "Adds intended submission method for Disputes",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "intended_submission_method"
+      ],
+      "events": [],
+      "api_version": "2026-10-28",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds the intended_submission_method property to the Dispute object and a corresponding parameter to update a dispute. Use intended_submission_method to control whether you submit evidence manually or Smart Disputes submits a response.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-10-28/adds-intended-submission-method-for-disputes"
+    },
+    {
+      "id": "e64da365",
+      "vendor": "stripe",
+      "date": "2026-10-28",
+      "title": "Adds invoice settings parameters for Checkout Sessions and Payment Links",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "account_tax_ids",
+        "custom_fields",
+        "description",
+        "footer"
+      ],
+      "events": [],
+      "api_version": "2026-10-28",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds the account_tax_ids, custom_fields, description, and footer parameters to the subscription_data.invoice_settings hash. Set these parameters when you create a Checkout Session or create or update a Payment Link. These parameters control the tax IDs, custom fields, description, and footer on invoices for the resulting subscription. They correspond to the invoice_settings parameters in the Subscriptions API.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-10-28/invoice-settings-parameters-checkout-sessions-payment-links-subscriptions"
+    },
+    {
+      "id": "1e2ae834",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Adds destination property and new enum values to Reserve Plans, Holds and Releases",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "destination",
+        "manual_release",
+        "type",
+        "status"
+      ],
+      "events": [],
+      "api_version": "2026-09-30",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds a destination property to all three Reserve objects. You can now identify which balance holds reserved funds and where those funds go when they’re released: - Reserve Plans and Reserve Holds now include `destination` to indicate where reserved funds are sent. Possible values are `risk_reserved`, `settlement_reserved`, and `other`. Previously, the destination was implicitly `risk_reserved`. - Reserve Releases now include `destination` to indicate where released funds are sent. Possible values are `payments` and `other`. Previously, the destination was implicitly `payments`.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/settlement-reserve-api.md"
+    },
+    {
+      "id": "2a576da5",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Unifies the billing cycle anchor format across Subscriptions and Invoices",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "subscription_details.billing_cycle_anchor",
+        "billing_cycle_anchor"
+      ],
+      "events": [],
+      "api_version": "2026-09-30.endive",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Unifies how updates to a subscription’s billing cycle anchor are formatted when updating Subscriptions, resuming Subscriptions, and creating Preview Invoices. The billing_cycle_anchor field now uses a consistent object format with a type field, replacing the previous string, enum, and timestamp formats.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/polymorphic-billing-cycle-anchor.md"
+    },
+    {
+      "id": "49ecff2a",
+      "vendor": "stripe",
+      "date": "2026-09-30",
       "title": "Removes the payment method types parameter from Checkout Sessions",
       "kind": "removed",
       "breaking": true,
@@ -14,20 +470,2119 @@
         {
           "method": "*",
           "path": "/v1/checkout/sessions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}/expire"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}/line_items"
         }
       ],
       "replacements": [],
       "resources": [
-        "Checkout Sessions"
+        "Checkout.Session"
+      ],
+      "fields": [
+        "payment_method_types",
+        "allowed_payment_method_types"
+      ],
+      "events": [],
+      "api_version": "2026-09-30.endive",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Removes the `payment_method_types` parameter from the `create Checkout Session` method. You can no longer pass `payment_method_types` when you create a Checkout Session.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/remove-payment-method-types-checkout-sessions.md"
+    },
+    {
+      "id": "507fb5f6",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Removes the capture method parameter for PayPay payments",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "capture_method"
+      ],
+      "events": [],
+      "api_version": "2026-09-30.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "PayPay is now generally available to eligible businesses in Japan for one-time online payments. As part of this release, the capture_method parameter on the payment_method_options.paypay hash is removed from the public preview channel.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/removes-capture-method-parameter-for-paypay-payments.md"
+    },
+    {
+      "id": "507fe08b",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Rejects duplicate references for pending India card mandates",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "reference"
+      ],
+      "events": [],
+      "api_version": "2026-09-30",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Requests that reuse a reference associated with a pending mandate now return a `resource_already_exists` error during intent creation or confirmation. Previously, these requests could succeed while the previous mandate was pending.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/duplicate-reference-validation-for-india-pending-mandates.md"
+    },
+    {
+      "id": "54887177",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Support for Data Share Only for 3D Secure authentication",
+      "kind": "added",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/charges"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/{}/capture"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/search"
+        },
+        {
+          "method": "*",
+          "path": "/v1/setup_attempts"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records/{}/report_payment_attempt"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records/{}/report_payment_attempt_canceled"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records/{}/report_payment_attempt_failed"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records/{}/report_payment_attempt_guaranteed"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records/{}/report_payment_attempt_informational"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records/{}/report_refund"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_records/report_payment"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_attempt_records"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_attempt_records/{}"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Charge",
+        "SetupAttempt",
+        "PaymentRecord",
+        "PaymentAttemptRecord"
+      ],
+      "fields": [
+        "three_d_secure.result"
+      ],
+      "events": [
+        "charge.succeeded",
+        "charge.captured"
+      ],
+      "api_version": "2026-09-30",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds `data_share_only` as a possible 3D Secure (3DS) result in the [three_d_secure.result](https://docs.stripe.com/api/charges/object.md?api-version=2026-09-30.endive#charge_object-payment_method_details-card-three_d_secure-result) enum. This is included in the [payment_method_details](https://docs.stripe.com/api/charges/object.md?api-version=2026-09-30.endive#charge_object-payment_method_details) hash for [Charge](https://docs.stripe.com/api/charges/object.md?api-version=2026-09-30.endive), [SetupAttempt](https://docs.stripe.com/api/setup_attempts/object.md?api-version=2026-09-30.endive), [PaymentRecord](https://docs.stripe.com/api/payment-record/object.md?api-version=2026-09-30.endive), and [PaymentAttemptRecord](https://docs.stripe.com/api/payment-attempt-record/object.md?api-version=2026-09-30.endive) resources.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/data-share-only.md"
+    },
+    {
+      "id": "6546385e",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Expands Reserve Plan listing access and adds filters",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "destination",
+        "status"
+      ],
+      "events": [],
+      "api_version": "2026-09-30.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Direct accounts and connected accounts with API access can now List Reserve Plans. You can now optionally use the destination and status filter parameters when you List Reserve Plans. Previously, Listing Reserve Plans only returned risk reserve plans. It now returns plans across all destinations when the destination parameter isn’t set. When upgrading, set the destination parameter to `risk_reserved` if your integration expects only risk reserve plans when Listing Reserve Plans.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/expands-reserve-plan-listing-access.md"
+    },
+    {
+      "id": "7711f88d",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Removes PayTo-specific fields from Payment Methods",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/payment_methods"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_methods/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_methods/{}/attach"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_methods/{}/detach"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "PaymentMethod"
+      ],
+      "fields": [
+        "payto",
+        "payto[account_number]",
+        "payto[bsb_number]",
+        "payto[pay_id]"
+      ],
+      "events": [],
+      "api_version": "2026-09-30",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Removes the payto field (containing account_number, bsb_number, and pay_id) when you update PaymentMethods. Previously, the API accepted these PayTo-specific fields with a `200` status but never persisted the values. You can still update other fields such as billing_details and metadata for PayTo Payment Methods.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/removed-payto-fields.md"
+    },
+    {
+      "id": "7e1e1577",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Returns specific decline codes for BLIK payment failures",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": "2026-09-30",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Replaces the [generic_decline](https://docs.stripe.com/declines/codes.md#generic_decline) decline code with [code_invalid](https://docs.stripe.com/declines/codes.md#code-invalid), [code_expired](https://docs.stripe.com/declines/codes.md#code-expired), [insufficient_funds](https://docs.stripe.com/declines/codes.md#partner_insufficient_funds), [customer_declined](https://docs.stripe.com/declines/codes.md#customer-declined), [payment_limit_exceeded](https://docs.stripe.com/declines/codes.md#payment_limit_exceeded), and [partner_generic_decline](https://docs.stripe.com/declines/codes.md#partner_generic_decline) for applicable BLIK payment failures.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/blik-granular-decline-codes.md"
+    },
+    {
+      "id": "b1b842be",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Removes the payment method types parameter from Payment Intents and Setup Intents",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "payment_method_types"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Removes `payment_method_types` as a writable parameter from the [create](https://docs.stripe.com/api/payment_intents/create.md?api-version=2026-09-30.endive), [update](https://docs.stripe.com/api/payment_intents/update.md?api-version=2026-09-30.endive), and [confirm](https://docs.stripe.com/api/payment_intents/confirm.md?api-version=2026-09-30.endive) methods on Payment Intents, and from the [create](https://docs.stripe.com/api/setup_intents/create.md?api-version=2026-09-30.endive) and [update](https://docs.stripe.com/api/setup_intents/update.md?api-version=2026-09-30.endive) methods on Setup Intents.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/removes-the-payment-method-types-parameter-from-payment-intents-and-setup-intents.md"
+    },
+    {
+      "id": "db299e1c",
+      "vendor": "stripe",
+      "date": "2026-09-30",
+      "title": "Adds page limit validation for dispute evidence",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "evidence"
+      ],
+      "events": [],
+      "api_version": "2026-09-30.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Stripe now validates the estimated compiled page count of evidence submitted when you update a dispute.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/page-limit-validation-for-dispute-evidence.md"
+    },
+    {
+      "id": "554bb0f7",
+      "vendor": "stripe",
+      "date": "2026-08-26",
+      "title": "Updates bank account and payout method resources for Global Payouts",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v2/core/vault/gb_bank_accounts"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/gb_bank_accounts/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/gb_bank_accounts/{}/archive"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/gb_bank_accounts/{}/unarchive"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/us_bank_accounts"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/us_bank_accounts/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/us_bank_accounts/{}/archive"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/us_bank_accounts/{}/confirm_microdeposits"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/us_bank_accounts/{}/send_microdeposits"
+        },
+        {
+          "method": "*",
+          "path": "/v2/core/vault/us_bank_accounts/{}/unarchive"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "V2.Core.Vault.GbBankAccount",
+        "V2.Core.Vault.UsBankAccount"
+      ],
+      "fields": [
+        "restricted",
+        "enabled_delivery_schemes",
+        "enabled_delivery_options"
+      ],
+      "events": [],
+      "api_version": "2026-08-26.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds the restricted property to US Bank Account and GB Bank Account vault resources. This Boolean property indicates whether a user can use a correctly configured bank account for money movement. Without this field, users might infer blocked transactions as invalid configuration. Renames the enabled_delivery_options property to enabled_delivery_schemes on the bank_account hash of the v2 Payout Method object. The new name better reflects that the property represents delivery schemes rather than generic options.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-08-26/updates-v2-payout-method-and-vault-bank-account-resources.md"
+    },
+    {
+      "id": "7c584e64",
+      "vendor": "stripe",
+      "date": "2026-08-26",
+      "title": "Removes support for specifying payment method types in Payment Intents and Setup Intents",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/payment_intents"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/amount_details_line_items"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/apply_customer_balance"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/capture"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/confirm"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/increment_authorization"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/verify_microdeposits"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/search"
+        },
+        {
+          "method": "*",
+          "path": "/v1/setup_intents"
+        },
+        {
+          "method": "*",
+          "path": "/v1/setup_intents/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/setup_intents/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/setup_intents/{}/confirm"
+        },
+        {
+          "method": "*",
+          "path": "/v1/setup_intents/{}/verify_microdeposits"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "PaymentIntent",
+        "SetupIntent"
       ],
       "fields": [
         "payment_method_types"
       ],
-      "api_version": "2026-10-28.endive",
+      "events": [],
+      "api_version": "2026-08-26.preview",
       "scope_prefix": null,
       "sunset_date": null,
-      "quote": "Removes the payment method types parameter from Checkout Sessions.",
-      "url": "https://docs.stripe.com/changelog/endive/2026-10-28/removes-payment-method-types"
+      "quote": "Removes `payment_method_types` as a writable parameter from the create, update, and confirm methods on Payment Intents, and from the create and update methods on Setup Intents. Passing `payment_method_types` now returns a 400 error with the code `payment_method_types_no_longer_supported`. The PaymentIntent and SetupIntent objects still return `payment_method_types` as a read-only property, reflecting the computed list of available payment methods.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-08-26/removes-payment-method-types-parameter-from-payment-intents-setup-intents.md"
+    },
+    {
+      "id": "767e5191",
+      "vendor": "stripe",
+      "date": "2026-07-29",
+      "title": "Renames tax IDs property to tax ID in Checkout Session collected information",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "tax_id",
+        "tax_ids"
+      ],
+      "events": [],
+      "api_version": "2026-07-29.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Renames the tax_ids property on the collected_information hash of a Checkout Session from `tax_ids` (an array) to `tax_id` (a single object). Previously, collected_information.tax_ids returned an array of tax ID objects. On newer API versions, collected_information.tax_id returns a single tax ID object, or null if no tax ID was collected. If your integration accesses collected_information.tax_ids on a Checkout Session response, you must update it to use collected_information.tax_id instead.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-07-29/checkout-session-collected-information-tax-ids-rename.md"
+    },
+    {
+      "id": "7be89267",
+      "vendor": "stripe",
+      "date": "2026-07-29",
+      "title": "Renames the taxes parameter to tax items in industry metadata payment details",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/payment_intents"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/amount_details_line_items"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/apply_customer_balance"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/capture"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/confirm"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/increment_authorization"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/verify_microdeposits"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/search"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/{}/capture"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/search"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "PaymentIntent",
+        "Charge"
+      ],
+      "fields": [
+        "taxes",
+        "tax_items"
+      ],
+      "events": [],
+      "api_version": "2026-07-29.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Renames the [taxes](https://docs.stripe.com/api/payment_intents/create.md?api-version=2026-06-24.preview#create_payment_intent-payment_details-car_rental_data-total-tax-taxes) parameter to [tax_items](https://docs.stripe.com/api/payment_intents/create.md?api-version=2026-07-29.preview#create_payment_intent-payment_details-car_rental_data-total-tax-tax_items) within the [total.tax](https://docs.stripe.com/api/payment_intents/create.md?api-version=2026-07-29.preview#create_payment_intent-payment_details-car_rental_data-total-tax) hash for car rental, lodging, and flight payment details. This affects the [payment_details](https://docs.stripe.com/api/payment_intents/create.md?api-version=2026-07-29.preview#create_payment_intent-payment_details) parameter when you [create](https://docs.stripe.com/api/payment_intents/create.md?api-version=2026-07-29.preview), [update](https://docs.stripe.com/api/payment_intents/update.md?api-version=2026-07-29.preview), [confirm](https://docs.stripe.com/api/payment_intents/confirm.md?api-version=2026-07-29.preview), or [capture](https://docs.stripe.com/api/payment_intents/capture.md?api-version=2026-07-29.preview) a PaymentIntent, and when you [update](https://docs.stripe.com/api/charges/update.md?api-version=2026-07-29.preview) or [capture](https://docs.stripe.com/api/charges/capture.md?api-version=2026-07-29.preview) a Charge.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-07-29/industry-metadata-taxes-parameter-rename.md"
+    },
+    {
+      "id": "c29f791c",
+      "vendor": "stripe",
+      "date": "2026-07-29",
+      "title": "Adds additional next action support for Shared Payment Tokens",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "use_stripe_sdk",
+        "redirect_to_url",
+        "next_action.type"
+      ],
+      "events": [],
+      "api_version": "2026-07-29",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds the `redirect_to_url` next action type to the `SharedPaymentToken` object. This change also adds the optional `use_stripe_sdk` boolean parameter to the `Create a SharedPaymentToken` endpoint, the `SharedPaymentToken` object, and the `Confirm a requested Delegated Checkout Session` endpoint.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-07-29/spts-next-action-support.md"
+    },
+    {
+      "id": "694cf8f6",
+      "vendor": "stripe",
+      "date": "2026-05-27",
+      "title": "Billed until property on subscription items is no longer included in responses by default",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "billed_until"
+      ],
+      "events": [],
+      "api_version": "2026-05-27.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "You must now expand the billed_until property on subscription items if you want to include it in the response. This makes subscription API methods more performant in cases where it isn’t requested. If your integration references the `billed_until` property on subscription items, you now need to expand it in your request to include it in the response. Previously, it was included by default.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-05-27/subscription-item-billed-until-includable.md"
+    },
+    {
+      "id": "6c033555",
+      "vendor": "stripe",
+      "date": "2026-04-22",
+      "title": "Validation for billing meter event values with more than 15 digits",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "value"
+      ],
+      "events": [
+        "v1.billing.meter.error_report_triggered"
+      ],
+      "api_version": "2026-04-22",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Introduces validation that rejects billing meter event values with more than 15 significant digits. For the synchronous API, requests with such values now return a 400 error. For async meter events, Stripe reports the rejection through the v1.billing.meter.error_report_triggered event with the new `meter_event_value_too_many_digits` error code.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-04-22/billing-meter-event-values-validation.md"
+    },
+    {
+      "id": "4d9f369c",
+      "vendor": "stripe",
+      "date": "2026-03-25",
+      "title": "Renames Embedded Checkout initialization method",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "fetchClientSecret"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Renames the `stripe.initEmbeddedCheckout()` method to [stripe.createEmbeddedCheckoutPage()](https://docs.stripe.com/js/embedded_checkout/create). The options and return type remain the same as for `initEmbeddedCheckout()`. \n\nWhy is this a breaking change? `stripe.initEmbeddedCheckout()` has been renamed, so calling it throws an `IntegrationError`. If your integration uses [Embedded Checkout](https://docs.stripe.com/checkout/embedded/quickstart.md) and calls `initEmbeddedCheckout()`, you need to update your code to instead call `createEmbeddedCheckoutPage()`. \n\nFor example:\n\n```javascript\n\nconst checkout = await stripe.createEmbeddedCheckoutPage({fetchClientSecret});\n```",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-03-25/rename-init-embedded-checkout-to-create-embedded-checkout-page.md"
+    },
+    {
+      "id": "5fa37950",
+      "vendor": "stripe",
+      "date": "2026-03-25",
+      "title": "Removes the source type property from Stripe balance payment methods",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/payment_methods"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "ConfirmationToken",
+        "PaymentAttemptRecord",
+        "PaymentIntent",
+        "PaymentMethod",
+        "PaymentRecord",
+        "SetupIntent"
+      ],
+      "fields": [
+        "source_type"
+      ],
+      "events": [],
+      "api_version": "2026-03-25",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Removes the `source_type` property from API resources that reference a Payment Method with a type of `stripe_balance`. The `source_type` property can appear in different hashes, depending on the resource. For example, in the Payment Record object, the removed property is payment_method_details.stripe_balance.source_type, and in the create `/v1/payment_methods` method, the removed parameter is stripe_balance.source_type.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-03-25/stripe-balance-payment-method-source-type.md"
+    },
+    {
+      "id": "8717ab71",
+      "vendor": "stripe",
+      "date": "2026-03-25",
+      "title": "Renames Checkout initialization method",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "clientSecret"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Renames the `stripe.initCheckout()` method for Stripe.js to `stripe.initCheckoutElementsSdk()`. It accepts the same options and returns the same Checkout object as `initCheckout()`. Additionally, introduces `stripe.initCheckoutFormSdk()` as a new entry point for Checkout form integrations.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-03-25/rename-init-checkout-to-init-checkout-elements.md"
+    },
+    {
+      "id": "d258db75",
+      "vendor": "stripe",
+      "date": "2026-03-25",
+      "title": "Adds retention policy cancellation reason to Subscriptions",
+      "kind": "added",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/subscriptions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/discount"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/migrate"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/pause"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/resume"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/search"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Subscription"
+      ],
+      "fields": [
+        "cancellation_details.reason"
+      ],
+      "events": [],
+      "api_version": "2026-03-25",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds the `canceled_by_retention_policy` enum value to the [cancellation_details.reason](https://docs.stripe.com/api/subscriptions/object.md?api-version=2026-03-25.dahlia#subscription_object-cancellation_details-reason) attribute on [Subscription](https://docs.stripe.com/api/subscriptions/object.md?api-version=2026-03-25.dahlia) objects. This value indicates that a subscription has been canceled automatically due to Stripe’s [test data retention policy](https://support.stripe.com/questions/test-mode-subscription-data-retention). This reduces confusion when reviewing test subscriptions that appear to have been canceled unexpectedly. The retention policy only applies to subscriptions created in test mode or a sandbox. Therefore, the `canceled_by_retention_policy` reason can only appear on subscriptions where [livemode](https://docs.stripe.com/api/subscriptions/object.md?api-version=2026-03-25.dahlia#subscription_object-livemode) is false.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-03-25/adds-new-cancellation-reason-subscription-test-retention-policy.md"
+    },
+    {
+      "id": "e3fd7a50",
+      "vendor": "stripe",
+      "date": "2026-03-25",
+      "title": "Updates Checkout Session UI mode enum values",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "ui_mode"
+      ],
+      "events": [],
+      "api_version": "2026-03-25.dahlia",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Attempting to set a Checkout Session’s ui_mode to `hosted`, `embedded`, or `custom` will fail. If your integration uses any of those values, you must update your code to use the new `ui_mode` values.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-03-25/updates-available-checkout-session-ui-modes.md"
+    },
+    {
+      "id": "291f4c1a",
+      "vendor": "stripe",
+      "date": "2025-11-17",
+      "title": "Meter Usage Analytics adds support for filtering multiple tenants and dimension values",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "tenant_filters",
+        "dimension_filters"
+      ],
+      "events": [],
+      "api_version": "2025-11-17.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Updates the tenant_filters and dimension_filters parameters in the Meter Usage Analytics API to accept an array of strings instead of a single string value. This change allows you to filter meter usage data across multiple tenants or dimension values in a single API call. Previously, each filter parameter accepted only a single string value, requiring multiple API calls to retrieve usage data for different tenant or dimension combinations.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-11-17/meter-usage-tenant-dimension-filters.md"
+    },
+    {
+      "id": "4d82c237",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Removes currency conversion field from Checkout Sessions",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}/expire"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}/line_items"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Checkout.Session"
+      ],
+      "fields": [
+        "currency_conversion",
+        "presentment_details"
+      ],
+      "events": [],
+      "api_version": "2025-09-30",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Removes the currency_conversion field from Checkout Sessions. Previously, the currency_conversion field provided details about Adaptive Pricing for Checkout Sessions created before 2025-03-30. Any Checkout Sessions created after 2025-03-30 that use Adaptive Pricing have the presentment_details field populated instead.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/remove-checkout-session-currency-conversion-field.md"
+    },
+    {
+      "id": "6c1d8ee1",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Restructures Smart Disputes recommended evidence field",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "recommended_evidence"
+      ],
+      "events": [],
+      "api_version": "2025-09-30.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’ve changed the structure of the `recommended_evidence` field to group relevant evidence fields together. You can now identify which evidence fields must be provided together to use Smart Disputes. If you’re using the `recommended_evidence` array to determine which evidence to provide for Smart Disputes, you need to update your integration to use the new nested array structure.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/restructure-smart-disputes-recommended-evidence.md"
+    },
+    {
+      "id": "761d8849",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Makes flexible billing mode the default for new subscriptions",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/subscriptions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/discount"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/migrate"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/pause"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/resume"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/search"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Subscription"
+      ],
+      "fields": [
+        "billing_mode.type"
+      ],
+      "events": [],
+      "api_version": "2025-09-30.clover",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Subscriptions you create through the API now default to [flexible billing mode](https://docs.stripe.com/billing/subscriptions/billing-mode.md). To use `classic`, set the `billing_mode.type` parameter to `classic`. In the Stripe Dashboard, use **Billing Settings** to set an account-wide default billing mode for subscriptions you create with the **subscription editor** and payment links. You can display both billing modes and set the default to `flexible` or `classic`, or hide `classic` entirely.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/billing-mode-default-flexible.md"
+    },
+    {
+      "id": "934eb743",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Removes iterations parameter for subscription schedules",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}/release"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "SubscriptionSchedule"
+      ],
+      "fields": [
+        "iterations"
+      ],
+      "events": [],
+      "api_version": "2025-09-30",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’ve removed the [iterations](https://docs.stripe.com/api/subscription_schedules/create.md?api-version=2025-09-30.clover#create_subscription_schedule-phases-iterations) parameter because [duration](https://docs.stripe.com/api/subscription_schedules/create.md?api-version=2025-09-30.clover#create_subscription_schedule-phases-duration) replaces its functionality. You must update your integration to use `duration` to specify the length of a subscription schedule phase in the following API endpoints:\n- [Subscription Schedules Create](https://docs.stripe.com/api/subscription_schedules/create.md?api-version=2025-09-30.clover)\n- [Subscription Schedules Update](https://docs.stripe.com/api/subscription_schedules/update.md?api-version=2025-09-30.clover)\n- [Create an invoice preview](https://docs.stripe.com/api/invoices/create_preview.md?api-version=2025-09-30.clover)\nUsing `iterations` in these endpoints now returns an error.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/remove-iterations.md"
+    },
+    {
+      "id": "978475ef",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Updates computation of subscription schedule phase end date to consider billing cycle anchor changes",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "end_date",
+        "billing_cycle_anchor"
+      ],
+      "events": [],
+      "api_version": "2025-09-30.clover",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Adds consideration of any billing_cycle_anchor changes to the `end_date` calculation when you create a subscription schedule without explicitly setting a phase’s `end_date`. That aligns the `end_date` more closely with the subscription’s billing cycle.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/billing-cycle-anchor-resets-during-phase-computation.md"
+    },
+    {
+      "id": "d631e1fe",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Removes support for the redirectToCheckout method",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "The `stripe.redirectToCheckout` method is no longer supported in Stripe.js.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/remove-redirect-to-checkout.md"
+    },
+    {
+      "id": "dd4268c5",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Promotion Codes now reference Coupons using a polymorphic field for promotions",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/promotion_codes"
+        },
+        {
+          "method": "*",
+          "path": "/v1/promotion_codes/{}"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "PromotionCode"
+      ],
+      "fields": [
+        "promotion",
+        "coupon"
+      ],
+      "events": [],
+      "api_version": "2025-09-30.clover",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Moves the top-level `coupon` field on Promotion Codes to `promotion.coupon`, as part of a new `promotion` hash which is polymorphic.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/polymorphic-coupon.md"
+    },
+    {
+      "id": "e1bba07f",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Adds a processing status to submitted stablecoin payments",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/payment_intents"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/amount_details_line_items"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/apply_customer_balance"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/capture"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/confirm"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/increment_authorization"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/verify_microdeposits"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/search"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "PaymentIntent"
+      ],
+      "fields": [
+        "status"
+      ],
+      "events": [
+        "payment_intent.processing"
+      ],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "PaymentIntents confirmed with the `crypto` payment method for stablecoin payments now have a `status` of `processing` when a user submits a transaction to the blockchain for processing. If you retrieve the PaymentIntent while customers are waiting for the transaction to confirm, the `status` field now shows a value of `processing`. If you attempt to cancel a confirmed PaymentIntent with the `processing` status, the request fails with error `payment_intent_invalid_cancellation_state`. You can optionally set up your webhook endpoint to listen for the `payment_intent.processing` event to be notified when the PaymentIntent transitions to the `processing` status.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/stablecoin-payments-processing-status.md"
+    },
+    {
+      "id": "e4b06166",
+      "vendor": "stripe",
+      "date": "2025-09-30",
+      "title": "Adds the Discount source property and removes the Discount coupon property",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "source",
+        "coupon"
+      ],
+      "events": [],
+      "api_version": "2025-09-30.clover",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "This change adds a new source property to the Discount object and removes the auto-expanded `coupon` property. The new `source` property is a hash that contains the following attributes:\n\n- `type`: The type of object used to calculate and apply the discount.\n- `coupon`: The Coupon redeemed to create the discount.\n\nThe `coupon` property no longer auto-expands on the Discount object. To retrieve details about a discount’s coupon, either retrieve it separately or expand it through the `source` property.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/add-discount-source-property.md"
+    },
+    {
+      "id": "30bc3880",
+      "vendor": "stripe",
+      "date": "2025-08-27",
+      "title": "Makes flexible billing mode the default for new subscriptions",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "billing_mode.type"
+      ],
+      "events": [],
+      "api_version": "2025-08-27.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Newly created subscriptions now default to flexible billing mode. You can continue to use `classic` using the billing_mode.type parameter.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-08-27/billing-mode-default-flexible.md"
+    },
+    {
+      "id": "9c3bedba",
+      "vendor": "stripe",
+      "date": "2025-08-27",
+      "title": "Removes iterations parameter for subscription schedules",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}/release"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "SubscriptionSchedule"
+      ],
+      "fields": [
+        "iterations"
+      ],
+      "events": [],
+      "api_version": "2025-08-27.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’ve removed the [iterations](https://docs.stripe.com/api/subscription_schedules/create.md?api-version=2025-08-27.preview#create_subscription_schedule-phases-iterations) parameter because [duration](https://docs.stripe.com/api/subscription_schedules/create.md?api-version=2025-08-27.preview#create_subscription_schedule-phases-duration) replaces its functionality.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-08-27/remove_schedule_phase_iterations.md"
+    },
+    {
+      "id": "7a2e4482",
+      "vendor": "stripe",
+      "date": "2025-06-30",
+      "title": "Consolidates billing mode configuration across Billing products",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "billing_mode_details",
+        "Checkout.Session#create.subscription_data.billing_mode",
+        "Invoice#create_preview.schedule_details.billing_mode",
+        "Invoice#create_preview.subscription_details.billing_mode",
+        "Quote#create.subscription_data.billing_mode",
+        "Quote.subscription_data.billing_mode",
+        "Subscription#create.billing_mode",
+        "SubscriptionSchedule#create.billing_mode",
+        "QuotePreviewSubscriptionSchedule.billing_mode",
+        "Subscription.billing_mode",
+        "SubscriptionSchedule.billing_mode",
+        "Subscription#migrate.billing_mode"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’ve unified the `billing_mode` parameter and field format across all billing endpoints. The `billing_mode` parameter now uses a consistent object format with a `type` field, replacing the previous string format. We’ve also consolidated the `billing_mode_details` field into the main `billing_mode` object.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-06-30/billing-mode-hash.md"
+    },
+    {
+      "id": "dc9e8449",
+      "vendor": "stripe",
+      "date": "2025-06-30",
+      "title": "Adds billing mode for more flexible subscriptions behavior",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}/expire"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}/line_items"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscription_schedules/{}/release"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Checkout.Session",
+        "SubscriptionSchedule"
+      ],
+      "fields": [
+        "billing_mode"
+      ],
+      "events": [],
+      "api_version": "2025-06-30",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’re introducing a new `billing_mode` parameter that enables more flexible subscription behavior. You can enable it by setting `billing_mode[type]=flexible` when you create subscriptions, invoice previews, Checkout Sessions, quotes, or subscription schedules. The default, `classic` mode, preserves existing behavior.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-06-30/billing-mode.md"
+    },
+    {
+      "id": "c21cad03",
+      "vendor": "stripe",
+      "date": "2025-05-28",
+      "title": "Replaces tax association status fields",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/tax/associations/find"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Tax.Association"
+      ],
+      "fields": [
+        "tax_transaction_attempts",
+        "status",
+        "status_details"
+      ],
+      "events": [],
+      "api_version": "2025-05-28.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Replaces the `status` and `status_details` parameters with `tax_transaction_attempts` for the `Tax Association` resource.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-05-28/flatten-tax-association.md"
+    },
+    {
+      "id": "e4b7e0b3",
+      "vendor": "stripe",
+      "date": "2025-05-28",
+      "title": "Renames Payment Intent field for linking tax calculation",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/payment_intents"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/amount_details_line_items"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/apply_customer_balance"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/capture"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/confirm"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/increment_authorization"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/verify_microdeposits"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/search"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "PaymentIntent"
+      ],
+      "fields": [
+        "hooks",
+        "async_workflows"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Renames the preview parameter `async_workflows` to `hooks` in [Payment Intents](https://docs.stripe.com/api/payment_intents.md?api-version=2025-05-28.preview).",
+      "url": "https://docs.stripe.com/changelog/basil/2025-05-28/rename-async-workflows.md"
+    },
+    {
+      "id": "08bf3389",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Updates the Vault and Forward API to return a 402 status code for upstream request timeouts",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": "2025-03-31",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "The Vault and Forward API now returns a `402` error instead of `502` and `504` errors for specific scenarios.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/vault-forward-api-returns-402.md"
+    },
+    {
+      "id": "0ac84440",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Invoicing resources now specify how they were generated",
+      "kind": "deprecated",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/invoiceitems"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoiceitems/{}"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "InvoiceItem"
+      ],
+      "fields": [
+        "quote",
+        "subscription",
+        "subscription_details",
+        "subscription_proration_date",
+        "subscription_item",
+        "parent",
+        "invoice_item",
+        "type",
+        "proration",
+        "proration_details"
+      ],
+      "events": [],
+      "api_version": "2025-03-31",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’re introducing a new `parent` field on [invoices](https://docs.stripe.com/api/invoices.md?api-version=2025-03-31.basil), [invoice items](https://docs.stripe.com/api/invoiceitems.md?api-version=2025-03-31.basil), and [invoice line items](https://docs.stripe.com/api/invoice-line-item.md?api-version=2025-03-31.basil). The `parent` field allows you to view the details of the upstream object that generated the `invoice`, `invoice item`, or `invoice line item` (such as a subscription, a quote, or other). It replaces top level fields that we previously used to reference these objects.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/adds-new-parent-field-to-invoicing-objects.md"
+    },
+    {
+      "id": "1790854e",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Removes support for discount coupons that don't have a specified end time",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "amount_off",
+        "duration"
+      ],
+      "events": [],
+      "api_version": "2025-03-31.basil",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’re removing support for creating new `amount_off` coupons with a `forever` duration and applying these to subscriptions, subscription items, subscription schedules, invoices, invoice items, quotes, or checkout sessions.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/restrict-coupon-duration.md"
+    },
+    {
+      "id": "3d948257",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Checkout Session removes shipping details",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}/expire"
+        },
+        {
+          "method": "*",
+          "path": "/v1/checkout/sessions/{}/line_items"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Checkout.Session"
+      ],
+      "fields": [
+        "shipping_details"
+      ],
+      "events": [],
+      "api_version": "2025-03-31.basil",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Within a Checkout Session, the `shipping_details` top-level field has moved to the `collected_information.shipping_details` field. This change breaks compatibility because we’re removing the `shipping_details` field to the `collected_information` sub-hash on the same Checkout Session resource.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/checkout-session-remove-shipping-details.md"
+    },
+    {
+      "id": "7bc4df07",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Removes manual capture method for Interac cards",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/payment_intents"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "PaymentIntents"
+      ],
+      "fields": [
+        "capture_method"
+      ],
+      "events": [],
+      "api_version": "2025-03-31.basil",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "The `interac_present` payment method type no longer supports the `manual` capture_method for PaymentIntents. We still support synchronous and asynchronous automatic capture methods.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/deprecate-interac-present-manual-capture-method.md"
+    },
+    {
+      "id": "b232e79c",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Replaces Upcoming Invoice API methods with the Create Preview Invoice API",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/v1/invoices/upcoming"
+        },
+        {
+          "method": "GET",
+          "path": "/v1/invoices/upcoming/lines"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Invoice"
+      ],
+      "fields": [
+        "subscription",
+        "subscription_details.items",
+        "schedule",
+        "schedule_details.phases",
+        "invoice_items",
+        "customer"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’re removing the `GET /v1/invoices/upcoming` API in favor of the [Create Preview Invoice API](https://docs.stripe.com/api/invoices/create_preview.md?api-version=2025-03-31.basil). Additionally, you can no longer preview the next invoice for a customer across all their subscriptions on the [Create Preview Invoice API](https://docs.stripe.com/api/invoices/create_preview.md?api-version=2025-03-31.basil).",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/invoice-preview-api-deprecations.md"
+    },
+    {
+      "id": "b6b14991",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Removes coupon and promotion code parameters with stackable discounts",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/invoices"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/add_lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/attach_payment"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/finalize"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/lines/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/mark_uncollectible"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/pay"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/remove_lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/send"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/update_lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/void"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/create_preview"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/search"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/upcoming"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/upcoming/lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/discount"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/migrate"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/pause"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/{}/resume"
+        },
+        {
+          "method": "*",
+          "path": "/v1/subscriptions/search"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/balance_transactions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/balance_transactions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/cash_balance"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/cash_balance_transactions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/cash_balance_transactions/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/discount"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/funding_instructions"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/payment_methods"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/payment_methods/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/sources"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/sources/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/sources/{}/verify"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/tax_ids"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/{}/tax_ids/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/customers/search"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Invoice",
+        "Subscription",
+        "Customer"
+      ],
+      "fields": [
+        "coupon",
+        "promotion_code",
+        "discount"
+      ],
+      "events": [],
+      "api_version": "2025-03-31",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’re removing the singular `coupon` and `promotion_code` parameters in favor of the discounts parameter that supports applying multiple discounts. The `coupon` and `promotion_code` parameters and fields are no longer available on Subscription, Subscription Schedule, Customer or Preview Invoice endpoints and respective resources.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/deprecate-singular-coupon-promotion-code.md"
+    },
+    {
+      "id": "b75452f4",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Replace top-level tax-related properties with improved tax modeling",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/invoices"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/add_lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/attach_payment"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/finalize"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/lines/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/mark_uncollectible"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/pay"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/remove_lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/send"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/update_lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/{}/void"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/create_preview"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/search"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/upcoming"
+        },
+        {
+          "method": "*",
+          "path": "/v1/invoices/upcoming/lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/credit_notes"
+        },
+        {
+          "method": "*",
+          "path": "/v1/credit_notes/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/credit_notes/{}/lines"
+        },
+        {
+          "method": "*",
+          "path": "/v1/credit_notes/{}/void"
+        },
+        {
+          "method": "*",
+          "path": "/v1/credit_notes/preview"
+        },
+        {
+          "method": "*",
+          "path": "/v1/credit_notes/preview/lines"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Invoice",
+        "CreditNote"
+      ],
+      "fields": [
+        "tax_rates",
+        "tax_amounts",
+        "total_tax_amounts",
+        "total_taxes",
+        "taxes",
+        "amount_excluding_tax",
+        "unit_amount_excluding_tax"
+      ],
+      "events": [],
+      "api_version": "2025-03-31",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "We’re introducing a new taxes concept on Invoice Line Items and Credit Note Line Items that contains tax-related data and unifies the structure of tax objects in preparation for adding new types of tax objects. This replaces the top-level tax-related properties on the Invoice Line Item and Credit Note Line Item objects.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/invoice-tax-configurations.md"
+    },
+    {
+      "id": "bde70597",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Removal of Refund Object Creation on Payment Cancellation and Partial Capture",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/refunds"
+        },
+        {
+          "method": "*",
+          "path": "/v1/refunds/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/refunds/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/amount_details_line_items"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/apply_customer_balance"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/cancel"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/capture"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/confirm"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/increment_authorization"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/{}/verify_microdeposits"
+        },
+        {
+          "method": "*",
+          "path": "/v1/payment_intents/search"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/{}/capture"
+        },
+        {
+          "method": "*",
+          "path": "/v1/charges/search"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Refund",
+        "PaymentIntent",
+        "Charge"
+      ],
+      "fields": [
+        "cancellation_reason",
+        "amount_captured",
+        "amount_refunded",
+        "refunded"
+      ],
+      "events": [
+        "charge.refunded",
+        "charge.refund.updated",
+        "charge.expired",
+        "charge.captured",
+        "payment_intent.canceled"
+      ],
+      "api_version": "2025-03-31",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "This change affects your integration if you depend on the `Refund` object or any related fields for capture reversals or for payment cancellation. Removal of the `Refund` object affects the following fields or objects.\n\nA `Refund` object representing the cancellation or capture reversal will no longer be created.\nIt won’t be returned when calling to get all refunds associated with the payment intent or charge.\nIt won’t be present in any webhook events.\nIt won’t be present on the `Charge` object in any API response.\nIt won’t be visible on the Dashboard.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/remove-refund-from-partial-capture-and-payment-cancellation-flow.md"
+    },
+    {
+      "id": "e3ad7ef2",
+      "vendor": "stripe",
+      "date": "2025-03-31",
+      "title": "Checkout Sessions have lower latency and new update semantics",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/webhook"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "payment_intent",
+        "checkout.session.status"
+      ],
+      "events": [
+        "payment_intent.succeeded",
+        "checkout_session.completed"
+      ],
+      "api_version": "2025-03-31.basil",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "This version offers improved latency on all Checkout Session APIs for subscription-mode Sessions, including when your customer confirms the Session. It also fixes a bug with earlier versions that prevents your customers from updating a Session after the first payment attempt, such as not being able to update a billing address. They can now unblock themselves instead of refreshing.",
+      "url": "https://docs.stripe.com/changelog/basil/2025-03-31/checkout-legacy-subscription-upgrade.md"
+    },
+    {
+      "id": "5335273d",
+      "vendor": "stripe",
+      "date": "2024-09-30",
+      "title": "Moves the filter field inside of the alert type configuration",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v1/billing/alerts"
+        },
+        {
+          "method": "*",
+          "path": "/v1/billing/alerts/{}"
+        },
+        {
+          "method": "*",
+          "path": "/v1/billing/alerts/{}/activate"
+        },
+        {
+          "method": "*",
+          "path": "/v1/billing/alerts/{}/archive"
+        },
+        {
+          "method": "*",
+          "path": "/v1/billing/alerts/{}/deactivate"
+        }
+      ],
+      "replacements": [],
+      "resources": [
+        "Billing.Alert"
+      ],
+      "fields": [
+        "filter",
+        "usage_threshold",
+        "usage_threshold_config"
+      ],
+      "events": [],
+      "api_version": "2024-09-30.acacia",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Moves the `filter` field inside of the [alert type](https://docs.stripe.com/api/billing/alert/object.md?api-version=2024-09-30.acacia#billing_alert_object-alert_type) configuration as a list of `filters`. Also renames the alert type configuration fields to drop the `_config` suffix.",
+      "url": "https://docs.stripe.com/changelog/acacia/2024-09-30/billing-alerts-contextualizing-filters.md"
+    },
+    {
+      "id": "2979c43b",
+      "vendor": "stripe",
+      "date": "2023-10-10",
+      "title": "Changes to Trial Offer Price Handling",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "ProductCatalog.TrialOffer.end_behavior.transition.price",
+        "ProductCatalog.TrialOffer.price"
+      ],
+      "events": [],
+      "api_version": "2026-08-26.preview",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Expands the [Trial Offer](https://docs.stripe.com/api/product-catalog/trial-offer.md?api-version=2026-08-26.preview) object’s [price](https://docs.stripe.com/api/product-catalog/trial-offer/object.md?api-version=2026-08-26.preview#product_catalog_trial_offer_object-price) property and [end_behavior.transition.price](https://docs.stripe.com/api/product-catalog/trial-offer/object.md?api-version=2026-08-26.preview#product_catalog_trial_offer_object-end_behavior-transition-price) property to return a deleted [Price](https://docs.stripe.com/api/prices/object.md?api-version=2026-08-26.preview) object when the referenced Price has been deleted.",
+      "url": "https://docs.stripe.com/changelog/dahlia/2026-08-26/trial-offers-return-deleted-prices.md"
+    },
+    {
+      "id": "017d1887",
+      "vendor": "stripe",
+      "date": "2023-10-03",
+      "title": "Requires billing details when Payment Element collection is disabled",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "fields.billingDetails",
+        "billingAddress",
+        "email",
+        "phoneNumber"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Requires [Elements with the Checkout Sessions API](https://docs.stripe.com/payments/quickstart.md) integrations to provide required billing details for any field disabled on the Payment Element, starting with Endive. If you set a billing field to `never` in the [Payment Element configuration](https://docs.stripe.com/js/custom_checkout/create_payment_element#custom_checkout_create_payment_element-options-fields-billingDetails), the Payment Element no longer collects that field, and you’re responsible for supplying required billing data through another Element or a supported Custom Checkout SDK method.\n\nIf a required billing field is still missing when you call [checkout.confirm()](https://docs.stripe.com/js/custom_checkout/confirm), Stripe.js throws an integration error. Optional fields such as `address.line2` are exempt from this validation.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/strict-billing-details-validation.md"
+    },
+    {
+      "id": "24fcd32c",
+      "vendor": "stripe",
+      "date": "2023-10-01",
+      "title": "Changes to canConfirm Behavior in Checkout Sessions",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "canConfirm"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Updates canConfirm to `false` while a Custom Checkout server update is queued or in progress. After all pending updates finish, `canConfirm` reflects whether the checkout is otherwise ready for confirmation. This provides a signal that integrations can use to avoid confirming with outdated information.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/block-custom-checkout-confirmation-pending-updates.md"
+    },
+    {
+      "id": "2cf425ce",
+      "vendor": "stripe",
+      "date": "2023-10-01",
+      "title": "Allows empty optional address fields in Elements with Checkout Sessions",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "address"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Stops applying format validation to empty optional address fields in [Elements with the Checkout Sessions API](https://docs.stripe.com/payments/quickstart.md). Previously, an empty optional field, such as a postal code in a country where postal codes aren’t required, could prevent confirmation because the empty value failed format validation.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/skip-format-validation-empty-optional-address-fields.md"
+    },
+    {
+      "id": "747b196f",
+      "vendor": "stripe",
+      "date": "2023-09-30",
+      "title": "Update on stripe.initCheckout",
+      "kind": "changed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/create-checkout-session"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "clientSecret"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "The stripe.initCheckout method is now synchronous instead of asynchronous.",
+      "url": "https://docs.stripe.com/changelog/clover/2025-09-30/update-init-checkout-synchronous.md"
+    },
+    {
+      "id": "d451fe9c",
+      "vendor": "stripe",
+      "date": "2023-09-30",
+      "title": "Adds Failed Tax Calculation error",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "Invoice.last_finalization_error",
+        "PaymentIntent.last_payment_error",
+        "QuotePreviewInvoice.last_finalization_error",
+        "SetupAttempt.setup_error",
+        "SetupIntent.last_setup_error",
+        "StripeError",
+        "Terminal.Reader.action.api_error"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Introduces a new error code and message that’s returned when automatic tax fails to calculate. If your integration handles specific error codes from APIs with automatic tax, you must update your error handling logic to also handle the `failed_tax_calculation` error code, which indicates that the tax calculation couldn’t be completed.",
+      "url": "https://docs.stripe.com/changelog/endive/2026-09-30/failed-tax-calculation-error.md"
     }
   ]
 }

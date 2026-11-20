@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "vendor": "resend",
+  "pages": {
+    "https://resend.com/changelog": {
+      "status": "unknown",
+      "checked": "2026-11-18T23:05:02.681Z"
+    },
+    "https://resend.com/changelog/resend-mcp-supports-the-new-2026-07-28-spec": {
+      "status": "new",
+      "checked": "2026-11-18T23:05:02.681Z"
+    }
+  },
+  "entries": [
+    {
+      "id": "7889fede",
+      "vendor": "resend",
+      "date": "2026-08-06",
+      "title": "Remote MCP Supports the 2026-07-28 Spec",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Resend's remote MCP server now supports the stateless protocol.",
+      "url": "https://resend.com/changelog/resend-mcp-supports-the-new-2026-07-28-spec"
+    }
+  ]
+}

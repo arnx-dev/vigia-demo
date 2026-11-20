@@ -1,0 +1,186 @@
+{
+ "url": "https://docs.stripe.com/changelog/clover/2025-09-30/update-init-checkout-synchronous.md",
+ "markdown": "\\# Updates initCheckout to be synchronous\n\n\\## What’s new\n\nThe \\[stripe.initCheckout\\](https://docs.stripe.com/js/custom\\_checkout/init) method is now synchronous instead of asynchronous.\n\n\\## Why is this a breaking change?\n\nThis breaking change affects you if your integration uses \\[Elements with the Checkout Sessions API\\](https://docs.stripe.com/payments/quickstart.md).\n\n\\#### HTML + JS\n\nTo migrate, you need to:\n\n1\\. Remove any \\`await\\` or \\`.then()\\` calls associated with \\`initCheckout\\`.\n2\\. Replace your \\`fetchClientSecret\\` function with a client secret string or Promise that resolves to a client secret string.\n3\\. Call the new asynchronous function \\`checkout.loadActions()\\` in order to access actions such as \\`getSession()\\`, which replaces \\`session()\\`, or \\`confirm()\\`. You only need to call \\`loadActions()\\` once.\n4\\. If you previously wrapped \\`initCheckout\\` in a \\`try...catch\\` block, you should examine the resolved \\`type\\` value of \\`loadActions()\\` instead to check for errors.\n\n\\`\\`\\`javascript\nconst clientSecret = fetch(\"/create-checkout-session\", {\n method: \"POST\",\n headers: { \"Content-Type\": \"application/json\" },\n})\n .then((r) => r.json())\n .then((r) => r.clientSecret);\n\nconst checkout = stripe.initCheckout({\n clientSecret\n});\nconst paymentElement = checkout.createPaymentElement();\npaymentElement.mount(\"#payment-element\");\n\nconst loadActionsResult = await checkout.loadActions();\nif (loadActionsResult.type === 'success') {\n const session = loadActionsResult.actions.getSession();\n}\n\\`\\`\\`\n\n\\#### React\n\nUpgrade your \\`@stripe/react-stripe-js\\` dependency to at least version 5.0.0. If you upgrade from a version earlier than 4.0.0, make sure you read the \\[release notes\\](https://github.com/stripe/react-stripe-js/releases/tag/v4.0.0) to see what changed.\n\nIf you upgrade from version 4.0.0 or later, you need to replace your \\`fetchClientSecret\\` function with a client secret string or Promise that resolves to a client secret string. You can also render any Element without first checking if \\`useCheckout\\` returned \\`type: 'success'\\`, to reduce latency in your integration and enable Elements to show their skeleton loaders earlier.\n\n\\`\\`\\`jsx\nconst App = () => {\n const promise = useMemo(() => {\n return fetch('/create-checkout-session', {\n method: 'POST',\n headers: { \"Content-Type\": \"application/json\" },\n })\n .then((res) => res.json())\n .then((data) => data.clientSecret);\n }, \\[\\]);\n\n return (\n\n );\n}\n\nconst CheckoutPage = () => {\n const {type, ...rest} = useCheckout();\n\n return (\n\n\n );\n}\n\\`\\`\\`\n\n\\## Impact\n\nThe synchronous nature of \\`initCheckout\\` enables you to mount Elements earlier, which reduces the render latency of any Elements you mount immediately after \\`initCheckout\\`. This also enables Elements to display the skeleton loader UI after it’s mounted but the session state hasn’t fully loaded yet.\n\n\\## Related changes\n\n\\- \\[Removes postal code for card payments in certain regions on Checkout and Payment Element\\](https://docs.stripe.com/changelog/clover/2025-09-30/postal\\_code\\_in\\_card\\_form\\_for\\_non\\_us\\_countries.md)\n\\- \\[Removes currency conversion field from Checkout Sessions\\](https://docs.stripe.com/changelog/clover/2025-09-30/remove-checkout-session-currency-conversion-field.md)\n\\- \\[Removes support for the redirectToCheckout method\\](https://docs.stripe.com/changelog/clover/2025-09-30/remove-redirect-to-checkout.md)\n\\- \\[Adds support for collecting business and individual names in Checkout Sessions\\](https://docs.stripe.com/changelog/clover/2025-09-30/checkout-name-collection.md)\n\\- \\[Adds the ability to exclude payment methods from Checkout Sessions and Payment Intents\\](https://docs.stripe.com/changelog/clover/2025-09-30/exclude-payment-methods-checkout-sessions.md)\n\\- \\[Adds support for setting the capture method for specific payment methods with the Checkout Sessions API\\](https://docs.stripe.com/changelog/clover/2025-09-30/checkout-capture-method-per-payment-method.md)\n\\- \\[Adds support for configuring branding settings for Checkout Sessions\\](https://docs.stripe.com/changelog/clover/2025-09-30/checkout-sessions-branding-settings.md)\n\\- \\[Enables specifying units of measurement for Products\\](https://docs.stripe.com/changelog/clover/2025-09-30/product-data-unit-label.md)",
+ "json": {
+  "entries": [
+   {
+    "date": "2023-09-30",
+    "title": "Update on stripe.initCheckout",
+    "kind": "changed",
+    "breaking": true,
+    "endpoints": [
+     "POST /create-checkout-session"
+    ],
+    "replacements": [
+     "checkout.loadActions()"
+    ],
+    "resources": [
+     "Checkout.Session"
+    ],
+    "fields": [
+     "clientSecret"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "The stripe.initCheckout method is now synchronous instead of asynchronous."
+   },
+   {
+    "date": "2023-09-30",
+    "title": "Remove postal code for card payments in certain regions",
+    "kind": "removed",
+    "breaking": false,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "Checkout",
+     "Payment Element"
+    ],
+    "fields": [
+     "postal_code"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Removes postal code for card payments in certain regions on Checkout and Payment Element."
+   },
+   {
+    "date": "2023-09-30",
+    "title": "Remove currency conversion field from Checkout Sessions",
+    "kind": "removed",
+    "breaking": false,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "Checkout.Session"
+    ],
+    "fields": [
+     "currency_conversion"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Removes currency conversion field from Checkout Sessions."
+   },
+   {
+    "date": "2023-09-30",
+    "title": "Remove support for redirectToCheckout method",
+    "kind": "removed",
+    "breaking": false,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "Checkout.Session"
+    ],
+    "fields": [
+     "redirectToCheckout"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Removes support for the redirectToCheckout method."
+   },
+   {
+    "date": "2023-09-30",
+    "title": "Add support for collecting business and individual names in Checkout Sessions",
+    "kind": "added",
+    "breaking": false,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "Checkout.Session"
+    ],
+    "fields": [
+     "business_name",
+     "individual_name"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Adds support for collecting business and individual names in Checkout Sessions."
+   },
+   {
+    "date": "2023-09-30",
+    "title": "Add the ability to exclude payment methods from Checkout Sessions and Payment Intents",
+    "kind": "added",
+    "breaking": false,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "Checkout.Session",
+     "Payment Intent"
+    ],
+    "fields": [
+     "exclude_payment_methods"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Adds the ability to exclude payment methods from Checkout Sessions and Payment Intents."
+   },
+   {
+    "date": "2023-09-30",
+    "title": "Add support for setting the capture method for specific payment methods",
+    "kind": "added",
+    "breaking": false,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "Checkout.Session"
+    ],
+    "fields": [
+     "capture_method"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Adds support for setting the capture method for specific payment methods with the Checkout Sessions API."
+   },
+   {
+    "date": "2023-09-30",
+    "title": "Add support for configuring branding settings for Checkout Sessions",
+    "kind": "added",
+    "breaking": false,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "Checkout.Session"
+    ],
+    "fields": [
+     "branding_settings"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Adds support for configuring branding settings for Checkout Sessions."
+   },
+   {
+    "date": "2023-09-30",
+    "title": "Enable specifying units of measurement for Products",
+    "kind": "added",
+    "breaking": false,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "Product"
+    ],
+    "fields": [
+     "unit_label"
+    ],
+    "events": [],
+    "api_version": null,
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Enables specifying units of measurement for Products."
+   }
+  ]
+ }
+}

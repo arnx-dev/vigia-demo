@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "vendor": "devin",
+  "pages": {
+    "https://docs.devin.ai/api-reference/release-notes": {
+      "status": "new",
+      "checked": "2026-11-18T23:05:02.681Z"
+    }
+  },
+  "entries": [
+    {
+      "id": "1fc31534",
+      "vendor": "devin",
+      "date": "2026-09-10",
+      "title": "Schedules endpoints deprecated",
+      "kind": "deprecated",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "*",
+          "path": "/v3/organizations/{}/schedules"
+        },
+        {
+          "method": "POST",
+          "path": "/v3/organizations/{}/schedules"
+        },
+        {
+          "method": "*",
+          "path": "/v3/organizations/{}/schedules/{}"
+        },
+        {
+          "method": "DELETE",
+          "path": "/v3/organizations/{}/schedules/{}"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": "v3",
+      "scope_prefix": "/organization/",
+      "sunset_date": null,
+      "quote": "The organization schedules endpoints (`GET`/`POST /v3/organizations/{org_id}/schedules` and `GET`/`PATCH`/`DELETE /v3/organizations/{org_id}/schedules/{schedule_id}`) are deprecated in favor of Automations.",
+      "url": "https://docs.devin.ai/api-reference/release-notes"
+    },
+    {
+      "id": "142ae373",
+      "vendor": "devin",
+      "date": "2026-08-09",
+      "title": "Clone repository endpoint retired",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/v2/enterprise/organizations/{}/clone"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": "v2",
+      "scope_prefix": "/enterprise/",
+      "sunset_date": null,
+      "quote": "POST /v2/enterprise/organizations/{org_id}/clone has been removed along with the legacy org default-snapshot system it wrote to, and now returns `410 Gone`.",
+      "url": "https://docs.devin.ai/api-reference/release-notes"
+    },
+    {
+      "id": "9b36aad9",
+      "vendor": "devin",
+      "date": "2026-06-10",
+      "title": "Add IPs to IP access list endpoint",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/v3/enterprise/ip-access-list"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": "v3",
+      "scope_prefix": "/enterprise/",
+      "sunset_date": null,
+      "quote": "Added `POST /v3/enterprise/ip-access-list` for appending IP ranges to the enterprise IP access list without replacing the existing entries.",
+      "url": "https://docs.devin.ai/api-reference/release-notes"
+    }
+  ]
+}

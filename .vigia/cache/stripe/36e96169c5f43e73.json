@@ -1,0 +1,58 @@
+{
+ "url": "https://docs.stripe.com/changelog/basil/2025-08-27/billing-mode-default-flexible.md",
+ "markdown": "\\# Makes flexible billing mode the default for new subscriptions\n\n\\## What’s new\n\nNewly created subscriptions now default to \\[flexible billing mode\\](https://docs.stripe.com/billing/subscriptions/billing-mode.md). You can continue to use \\`classic\\` using the \\[billing\\_mode.type\\](https://docs.stripe.com/api/subscriptions/create.md?api-version=2025-08-27.preview#create\\_subscription-billing\\_mode-type) parameter.\n\n\\## Why is this a breaking change?\n\nFlexible billing mode has several \\[differences\\](https://docs.stripe.com/billing/subscriptions/billing-mode/compare.md) over \\`classic\\` that change how subscriptions behave and how they calculate invoices.\n\n\\## Impact\n\n\\[Flexible billing mode\\](https://docs.stripe.com/billing/subscriptions/billing-mode.md) provides accurate and predictable billing behavior and additional features for managing subscriptions.\n\nThe new default billing mode impacts these integrations:\n\n\\- \\[Create a subscription\\](https://docs.stripe.com/api/subscriptions/create.md?api-version=2025-08-27.preview)\n\\- \\[Create an invoice preview\\](https://docs.stripe.com/api/invoices/create\\_preview.md?api-version=2025-08-27.preview)\n\\- \\[Create a subscription schedule\\](https://docs.stripe.com/api/subscription\\_schedules/create.md?api-version=2025-08-27.preview)\n\\- \\[Create a quote\\](https://docs.stripe.com/api/quotes/create.md?api-version=2025-08-27.preview)\n\\- Subscriptions created through the \\[Checkout Session API\\](https://docs.stripe.com/api/checkout/sessions/create.md?api-version=2025-08-27.preview)\n\\- Subscriptions created through the \\[Payment Link API\\](https://docs.stripe.com/api/payment-link/create.md?api-version=2025-08-27.preview)\n\n\\## Upgrade\n\n\\#### REST API\n\n1\\. \\[View your current API version\\](https://docs.stripe.com/workbench/guides.md#view-api-versions) in Workbench.\n2\\. If you use an SDK, upgrade to the corresponding SDK version for this API version.\n \\- If you don’t use an SDK, update your \\[API requests\\](https://docs.stripe.com/api-versions.md#how-versions-are-specified-in-requests) to include \\`Stripe-Version: 2025-08-27.preview\\`\n3\\. Upgrade the API version used for \\[webhook endpoints\\](https://docs.stripe.com/webhooks/versioning.md).\n4\\. \\[Test your integration\\](https://docs.stripe.com/testing.md) against the new version.\n5\\. If you use Connect, \\[test your Connect integration\\](https://docs.stripe.com/connect/testing.md).\n\nLearn more about \\[Stripe API upgrades\\](https://docs.stripe.com/upgrades.md).\n\n\\#### Ruby\n\n1\\. \\[View your current API version\\](https://docs.stripe.com/upgrades.md#view-your-api-version-and-the-latest-available-upgrade-in-workbench) in Workbench.\n2\\. Upgrade your Ruby SDK to \\[v15.6.0-beta.1\\](https://github.com/stripe/stripe-ruby/releases/tag/v15.6.0-beta.1)\n3\\. Upgrade the API version used for \\[webhook endpoints\\](https://docs.stripe.com/webhooks/versioning.md).\n4\\. \\[Test your integration\\](https://docs.stripe.com/testing.md) against the new version.\n5\\. If you use Connect, \\[test your Connect integration\\](https://docs.stripe.com/connect/testing.md).\n6\\. In Workbench, \\[perform the upgrade\\](https://docs.stripe.com/upgrades.md#perform-the-upgrade). You can \\[roll back the version\\](https://docs.stripe.com/upgrades.md#roll-back-your-api-version) for 72 hours.\n\nLearn more about \\[Stripe API upgrades\\](https://docs.stripe.com/upgrades.md).\n\n\\#### Python\n\n1\\. \\[View your current API version\\](https://docs.stripe.com/upgrades.md#view-your-api-version-and-the-latest-available-upgrade-in-workbench) in Workbench.\n2\\. Upgrade your Python SDK to \\[v12.6.0b1\\](https://github.com/stripe/stripe-python/releases/tag/v12.6.0b1)\n3\\. Upgrade the API version used for \\[webhook endpoints\\](https://docs.stripe.com/webhooks/versioning.md).\n4\\. \\[Test your integration\\](https://docs.stripe.com/testing.md) against the new version.\n5\\. If you use Connect, \\[test your Connect integration\\](https://docs.stripe.com/connect/testing.md).\n6\\. In Workbench, \\[perform the upgrade\\](https://docs.stripe.com/upgrades.md#perform-the-upgrade). You can \\[roll back the version\\](https://docs.stripe.com/upgrades.md#roll-back-your-api-version) for 72 hours.\n\nLearn more about \\[Stripe API upgrades\\](https://docs.stripe.com/upgrades.md).\n\n\\#### PHP\n\n1\\. \\[View your current API version\\](https://docs.stripe.com/upgrades.md#view-your-api-version-and-the-latest-available-upgrade-in-workbench) in Workbench.\n2\\. Upgrade your PHP SDK to \\[v17.7.0-beta.1\\](https://github.com/stripe/stripe-php/releases/tag/v17.7.0-beta.1)\n3\\. Upgrade the API version used for \\[webhook endpoints\\](https://docs.stripe.com/webhooks/versioning.md).\n4\\. \\[Test your integration\\](https://docs.stripe.com/testing.md) against the new version.\n5\\. If you use Connect, \\[test your Connect integration\\](https://docs.stripe.com/connect/testing.md).\n6\\. In Workbench, \\[perform the upgrade\\](https://docs.stripe.com/upgrades.md#perform-the-upgrade). You can \\[roll back the version\\](https://docs.stripe.com/upgrades.md#roll-back-your-api-version) for 72 hours.\n\nLearn more about \\[Stripe API upgrades\\](https://docs.stripe.com/upgrades.md).\n\n\\#### Java\n\n1\\. \\[View your current API version\\](https://docs.stripe.com/upgrades.md#view-your-api-version-and-the-latest-available-upgrade-in-workbench) in Workbench.\n2\\. Upgrade your Java SDK to \\[v29.6.0-beta.1\\](https://github.com/stripe/stripe-java/releases/tag/v29.6.0-beta.1)\n3\\. Upgrade the API version used for \\[webhook endpoints\\](https://docs.stripe.com/webhooks/versioning.md).\n4\\. \\[Test your integration\\](https://docs.stripe.com/testing.md) against the new version.\n5\\. If you use Connect, \\[test your Connect integration\\](https://docs.stripe.com/connect/testing.md).\n6\\. In Workbench, \\[perform the upgrade\\](https://docs.stripe.com/upgrades.md#perform-the-upgrade). You can \\[roll back the version\\](https://docs.stripe.com/upgrades.md#roll-back-your-api-version) for 72 hours.\n\nLearn more about \\[Stripe API upgrades\\](https://docs.stripe.com/upgrades.md).\n\n\\#### Node.js\n\n1\\. \\[View your current API version\\](https://docs.stripe.com/upgrades.md#view-your-api-version-and-the-latest-available-upgrade-in-workbench) in Workbench.\n2\\. Upgrade your Node SDK to \\[v18.6.0-beta.1\\](https://github.com/stripe/stripe-node/releases/tag/v18.6.0-beta.1)\n3\\. Upgrade the API version used for \\[webhook endpoints\\](https://docs.stripe.com/webhooks/versioning.md).\n4\\. \\[Test your integration\\](https://docs.stripe.com/testing.md) against the new version.\n5\\. If you use Connect, \\[test your Connect integration\\](https://docs.stripe.com/connect/testing.md).\n6\\. In Workbench, \\[perform the upgrade\\](https://docs.stripe.com/upgrades.md#perform-the-upgrade). You can \\[roll back the version\\](https://docs.stripe.com/upgrades.md#roll-back-your-api-version) for 72 hours.\n\nLearn more about \\[Stripe API upgrades\\](https://docs.stripe.com/upgrades.md).\n\n\\#### Go\n\n1\\. \\[View your current API version\\](https://docs.stripe.com/upgrades.md#view-your-api-version-and-the-latest-available-upgrade-in-workbench) in Workbench.\n2\\. Upgrade your Go SDK to \\[v82.6.0-beta.1\\](https://github.com/stripe/stripe-go/releases/tag/v82.6.0-beta.1)\n3\\. Upgrade the API version used for \\[webhook endpoints\\](https://docs.stripe.com/webhooks/versioning.md).\n4\\. \\[Test your integration\\](https://docs.stripe.com/testing.md) against the new version.\n5\\. If you use Connect, \\[test your Connect integration\\](https://docs.stripe.com/connect/testing.md).\n6\\. In Workbench, \\[perform the upgrade\\](https://docs.stripe.com/upgrades.md#perform-the-upgrade). You can \\[roll back the version\\](https://docs.stripe.com/upgrades.md#roll-back-your-api-version) for 72 hours.\n\nLearn more about \\[Stripe API upgrades\\](https://docs.stripe.com/upgrades.md).\n\n\\#### .NET\n\n1\\. \\[View your current API version\\](https://docs.stripe.com/upgrades.md#view-your-api-version-and-the-latest-available-upgrade-in-workbench) in Workbench.\n2\\. Upgrade your .NET SDK to \\[v48.6.0-beta.1\\](https://github.com/stripe/stripe-dotnet/releases/tag/v48.6.0-beta.1)\n3\\. Upgrade the API version used for \\[webhook endpoints\\](https://docs.stripe.com/webhooks/versioning.md).\n4\\. \\[Test your integration\\](https://docs.stripe.com/testing.md) against the new version.\n5\\. If you use Connect, \\[test your Connect integration\\](https://docs.stripe.com/connect/testing.md).\n6\\. In Workbench, \\[perform the upgrade\\](https://docs.stripe.com/upgrades.md#perform-the-upgrade). You can \\[roll back the version\\](https://docs.stripe.com/upgrades.md#roll-back-your-api-version) for 72 hours.\n\nLearn more about \\[Stripe API upgrades\\](https://docs.stripe.com/upgrades.md).\n\n\\## Related changes\n\n\\- \\[Removes iterations parameter for subscription schedules\\](https://docs.stripe.com/changelog/basil/2025-08-27/remove\\_schedule\\_phase\\_iterations.md)",
+ "json": {
+  "entries": [
+   {
+    "date": "2025-08-27",
+    "title": "Makes flexible billing mode the default for new subscriptions",
+    "kind": "changed",
+    "breaking": true,
+    "endpoints": [
+     "POST /v1/subscriptions",
+     "POST /v1/invoices/create_preview",
+     "POST /v1/subscription_schedules",
+     "POST /v1/quotes",
+     "POST /v1/checkout/sessions",
+     "POST /v1/payment_link/create"
+    ],
+    "replacements": [],
+    "resources": [
+     "Subscription",
+     "Invoice",
+     "SubscriptionSchedule",
+     "Quote",
+     "Checkout.Session",
+     "PaymentLink"
+    ],
+    "fields": [
+     "billing_mode.type"
+    ],
+    "events": [],
+    "api_version": "2025-08-27.preview",
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Newly created subscriptions now default to flexible billing mode. You can continue to use `classic` using the billing_mode.type parameter."
+   },
+   {
+    "date": "2025-08-27",
+    "title": "Removes iterations parameter for subscription schedules",
+    "kind": "removed",
+    "breaking": true,
+    "endpoints": [],
+    "replacements": [],
+    "resources": [
+     "SubscriptionSchedule"
+    ],
+    "fields": [
+     "iterations"
+    ],
+    "events": [],
+    "api_version": "2025-08-27.preview",
+    "scope_prefix": null,
+    "sunset_date": null,
+    "quote": "Removes iterations parameter for subscription schedules."
+   }
+  ]
+ }
+}

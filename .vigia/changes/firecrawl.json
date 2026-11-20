@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "vendor": "firecrawl",
+  "pages": {
+    "https://docs.firecrawl.dev/migrate-to-v2.md": {
+      "status": "same",
+      "checked": "2026-11-20T00:28:31.591Z"
+    },
+    "https://www.firecrawl.dev/changelog": {
+      "status": "unknown",
+      "checked": "2026-11-20T00:28:31.591Z"
+    },
+    "https://www.firecrawl.dev/changelog/firecrawl-local": {
+      "status": "new",
+      "checked": "2026-11-18T23:05:02.681Z"
+    }
+  },
+  "entries": [
+    {
+      "id": "aaa4a4a1",
+      "vendor": "firecrawl",
+      "date": "2026-12-10",
+      "title": "Migrate from v1 to v2",
+      "kind": "removed",
+      "breaking": true,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": "/v1/",
+      "exceptions": [
+        "/v1/extract",
+        "/v1/deep-research",
+        "/v1/llmstxt"
+      ],
+      "sunset_date": "2026-12-10",
+      "quote": "The v1 API shuts down on December 10, 2026. The v1 scrape, crawl, batch scrape, search, map, and account endpoints stop working on Thursday, December 10, 2026, 15:00 UTC, and from then on they return HTTP 410.",
+      "url": "https://docs.firecrawl.dev/migrate-to-v2.md"
+    },
+    {
+      "id": "46638ffe",
+      "vendor": "firecrawl",
+      "date": "2026-11-18",
+      "title": "Introducing Firecrawl Local",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "exceptions": [],
+      "sunset_date": null,
+      "quote": "Introducing Firecrawl Local\n\nWe rebuilt the Firecrawl repo for agents to scrape locally. Rust based scrape, crawl and map primitives, 37x faster (vs self-hosted), 230x less memory (11 MB idle), and 100% open source. Compatible with all of the Firecrawl MCP and SDKs.",
+      "url": "https://www.firecrawl.dev/changelog/firecrawl-local"
+    }
+  ]
+}

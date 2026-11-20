@@ -1,50 +1,358 @@
 {
   "schema_version": 1,
   "vendor": "abacatepay",
-  "pages": {},
+  "pages": {
+    "https://docs.abacatepay.com/pages/changelog": {
+      "status": "same",
+      "checked": "2026-11-18T22:46:43.405Z"
+    }
+  },
   "entries": [
     {
-      "id": "79be15e8",
+      "id": "3be77455",
       "vendor": "abacatepay",
-      "date": "2026-10-10",
-      "title": "v1 sunset",
-      "kind": "sunset",
+      "date": "2026-11-02",
+      "title": "Subcontas e split no PIX",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/v2/sub-accounts/create"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "CPF",
+        "CNPJ"
+      ],
+      "events": [],
+      "api_version": "v2",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "`POST /v2/sub-accounts/create` cadastra o vendedor pelo CPF ou CNPJ.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "2ab18742",
+      "vendor": "abacatepay",
+      "date": "2026-10-27",
+      "title": "Pix por chave fixa",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Receba Pix numa chave fixa da sua conta, sem gerar cobrança.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "12fff026",
+      "vendor": "abacatepay",
+      "date": "2026-10-20",
+      "title": "Correções em clientes, saques e checkouts",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/v2/customers/create"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "metadata",
+        "address"
+      ],
+      "events": [],
+      "api_version": "v2",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "`POST /v2/customers/create` passa a gravar `metadata` e `address`, que antes eram descartados.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "513e2ec6",
+      "vendor": "abacatepay",
+      "date": "2026-10-20",
+      "title": "Cupom em assinatura: só no cartão",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Cupom em assinatura vale só quando ela é cobrada só no cartão e o produto não tem período de teste.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "520729fb",
+      "vendor": "abacatepay",
+      "date": "2026-10-20",
+      "title": "Cartão: repasse da taxa ao cliente",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/v2/checkouts/create"
+        },
+        {
+          "method": "POST",
+          "path": "/v2/payment-links/create"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "card.passFeesToCustomer"
+      ],
+      "events": [],
+      "api_version": "v2",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Novo campo card.passFeesToCustomer em POST /v2/checkouts/create e POST /v2/payment-links/create: o cliente paga a taxa do cartão e você recebe o preço cheio.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "8d87906c",
+      "vendor": "abacatepay",
+      "date": "2026-10-20",
+      "title": "Checkout com cupom de 100% fecha como REDEEMED",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Com um cupom que zera o valor, o cliente fecha o checkout sem pagar, no PIX e no cartão.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "7a694faa",
+      "vendor": "abacatepay",
+      "date": "2026-10-19",
+      "title": "Comprovante preenchido no transparente e nos webhooks",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "receiptUrl"
+      ],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "O receiptUrl vinha sempre null em alguns lugares.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "b04c46dc",
+      "vendor": "abacatepay",
+      "date": "2026-10-16",
+      "title": "Portal do cliente",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/v2/customer-portal/create"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": "v2",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Novo endpoint POST /v2/customer-portal/create: gera um link para o seu cliente gerenciar sozinho o que comprou num checkout.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "56adf722",
+      "vendor": "abacatepay",
+      "date": "2026-09-23",
+      "title": "Correções em checkouts e assinaturas",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": "v2",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "GET /v2/subscriptions/get: os filtros externalId e customerId agora funcionam.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "53f2c379",
+      "vendor": "abacatepay",
+      "date": "2026-09-11",
+      "title": "PIX transparente: travar o pagador (ensureSameTaxId)",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Agora é possível exigir que o PIX seja pago pelo mesmo CPF/CNPJ informado no cliente da cobrança.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "2e6b9b2f",
+      "vendor": "abacatepay",
+      "date": "2026-07-27",
+      "title": "Boleto: data de vencimento customizável (dueDate)",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Agora é possível definir a data de vencimento do boleto via API.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "6d05ad22",
+      "vendor": "abacatepay",
+      "date": "2026-06-09",
+      "title": "Saques via API v1: validação de titularidade obrigatória",
+      "kind": "changed",
       "breaking": true,
       "endpoints": [],
       "replacements": [],
       "resources": [],
       "fields": [],
-      "api_version": null,
-      "scope_prefix": "/v1/",
-      "sunset_date": "2028-03-01",
-      "quote": "A v1 continuará funcionando até 1º de março de 2028.",
+      "events": [],
+      "api_version": "v1",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "A partir de hoje, saques criados via API v1 passam a ter a titularidade do destinatário validada.",
       "url": "https://docs.abacatepay.com/pages/changelog"
     },
     {
-      "id": "de819721",
+      "id": "f5523cb3",
       "vendor": "abacatepay",
-      "date": "2026-09-23",
-      "title": "Checkout moved to subscriptions",
-      "kind": "changed",
-      "breaking": true,
-      "endpoints": [
-        {
-          "method": "GET",
-          "path": "/v2/checkouts/get"
-        }
-      ],
-      "replacements": [
-        {
-          "method": "GET",
-          "path": "/v2/subscriptions/checkouts/get"
-        }
-      ],
+      "date": "2026-05-18",
+      "title": "Produtos digitais: arquivo para download",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
       "resources": [],
       "fields": [],
+      "events": [],
       "api_version": null,
       "scope_prefix": null,
       "sunset_date": null,
-      "quote": "Ação necessária: GET /v2/checkouts/get passa a ser GET /v2/subscriptions/checkouts/get.",
+      "quote": "Produtos agora suportam um PDF vinculado para entrega digital.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "4b531541",
+      "vendor": "abacatepay",
+      "date": "2026-05-16",
+      "title": "Correção: imageUrl de produto agora funciona via API",
+      "kind": "changed",
+      "breaking": false,
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/v2/products/create"
+        }
+      ],
+      "replacements": [],
+      "resources": [],
+      "fields": [
+        "imageUrl"
+      ],
+      "events": [],
+      "api_version": "v2",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "O campo imageUrl em POST /v2/products/create não estava sendo processado corretamente.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "603c5bd0",
+      "vendor": "abacatepay",
+      "date": "2026-05-15",
+      "title": "Assinaturas: novo ciclo trimestral (QUARTERLY) e PIX Automático",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "Duas melhorias no fluxo de assinaturas foram lançadas hoje.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "4f825282",
+      "vendor": "abacatepay",
+      "date": "2026-03-26",
+      "title": "Checkouts e Assinaturas: suporte ao campo metadata na criação",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": null,
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "As rotas de criação de cobrança passam a aceitar e persistir um campo metadata customizado enviado pelo integrador.",
+      "url": "https://docs.abacatepay.com/pages/changelog"
+    },
+    {
+      "id": "db94ffd4",
+      "vendor": "abacatepay",
+      "date": "2026-03-06",
+      "title": "Nova versão da API",
+      "kind": "added",
+      "breaking": false,
+      "endpoints": [],
+      "replacements": [],
+      "resources": [],
+      "fields": [],
+      "events": [],
+      "api_version": "v2",
+      "scope_prefix": null,
+      "sunset_date": null,
+      "quote": "A API v2 está em beta e passa a ser o novo padrão oficial.",
       "url": "https://docs.abacatepay.com/pages/changelog"
     }
   ]
