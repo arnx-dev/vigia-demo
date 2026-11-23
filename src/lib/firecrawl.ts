@@ -27,3 +27,6 @@ export const searchWeb = (query: string) =>
 // Flagged: the old SDK method calls v1.
 const app = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
 export const scrapeWithSdk = (url: string) => app.scrapeUrl(url, { formats: ["markdown"] });
+
+// Crawls a supplier's catalog to keep our price list fresh.
+export const crawlCatalog = (url: string) => firecrawl("/crawl", { url, limit: 50 });
